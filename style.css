@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.hero_section_container {
+    display: flex;
+    height: 550px;
+}
+
+.hero_section_container_navbar {
+    width: calc(50% + 80px);
+    padding-left: 10%;
+    padding-right: 4%;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    margin-top: 60px;
+}
+
+.navbar img {
+    width: 200px;
+}
+
+.navbar_swiggy_menu button {
+    width: 110px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+#login {
+    background-color: transparent;
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin-right: -13px;
+
+}
+
+#login:hover{
+    color: #fc8019;
+}
+
+#signup {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.hero_section_container_navbar,
+.hero_section_container_image {
+    border: 2px solid red;
+}
+
+.hero_section_container_image{
+    width: calc(50% - 80px);
+    background-image: url(images/hero_section_container_image.webp);
+    background-size: cover;
+}
