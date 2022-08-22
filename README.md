@@ -1,1 +1,1 @@
-Creating swiggy landing page clone using HTML and CSS
+Creating swiggy landing page clone using HTML and CSS - (Zomato landing page clone is already done)
