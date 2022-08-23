@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -14,6 +15,9 @@
     width: calc(50% + 80px);
     padding-left: 10%;
     padding-right: 4%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     
 }
 
@@ -66,4 +70,42 @@
     width: calc(50% - 80px);
     background-image: url(images/hero_section_container_image.webp);
     background-size: cover;
+}
+
+.hero_section_container_heading{
+    border: 2px solid salmon;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero_section_container_heading h1{
+    font-size: 35px;
+}
+
+.hero_section_container_heading p{
+    color: gray;
+    font-size: 20px;
+}
+
+.hero_section_container_searchbar{
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+.hero_section_container_searchbar input{
+    outline: none;
+    background-color: transparent;
+    color: gray;
+    width: 480px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 18px;
+}
+
+.hero_section_container_searchbar input :active{
+    border: 2px solid #fc8019;
+    outline: none;
 }
