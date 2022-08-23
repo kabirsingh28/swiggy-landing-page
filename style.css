@@ -25,7 +25,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid black;
     margin-top: 60px;
 }
 
@@ -61,11 +60,6 @@
     cursor: pointer;
 }
 
-.hero_section_container_navbar,
-.hero_section_container_image {
-    border: 2px solid red;
-}
-
 .hero_section_container_image{
     width: calc(50% - 80px);
     background-image: url(images/hero_section_container_image.webp);
@@ -73,7 +67,6 @@
 }
 
 .hero_section_container_heading{
-    border: 2px solid salmon;
     margin-top: 40px;
     display: flex;
     flex-direction: column;
@@ -90,12 +83,12 @@
 }
 
 .hero_section_container_searchbar{
-    border: 2px solid black;
     margin-top: 20px;
+    display: flex;
+
 }
 
 .hero_section_container_searchbar input{
-    outline: none;
     background-color: transparent;
     color: gray;
     width: 480px;
@@ -103,9 +96,37 @@
     font-size: 16px;
     font-weight: 600;
     padding-left: 18px;
+    outline: none;
+    border: 1px solid rgb(176, 176, 176);
 }
 
-.hero_section_container_searchbar input :active{
-    border: 2px solid #fc8019;
-    outline: none;
+.hero_section_container_searchbar input:focus {
+    border: 1px solid #fc8019;
+}
+
+.hero_section_container_searchbar button {
+    height: 60px;
+    width: calc(100% - 480px);
+    background-color: #fc8019;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.hero_section_container_data {
+    margin-top: 12px;
+}
+
+#heading1{
+    font-size: 14px;
+    font-weight: 500;
+    color: gray;
+    margin-bottom: 16px;
+}
+
+#content1{
+    font-size: 14px;
+    color: gray;
+    font-weight: 500;
 }
