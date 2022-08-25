@@ -300,3 +300,52 @@ footer div ul li {
     margin-left: 24px;
 
 }
+
+@media only screen and (max-width:1100px){
+    .pocket_section_container_banner_images img{
+        display: none;
+    } 
+
+    .pocket_section_container_banner_images{
+        width: 0;
+    }
+
+    .hero_section_container_image{
+        display: none;
+        width: 0;
+    }
+
+    .hero_section_container_navbar{
+        width: 100%;
+
+    }
+
+    .hero_section_container_searchbar button{
+        width: 150px;
+    }
+
+    .pocket_section_container_data{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    footer{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    footer div{
+        margin-bottom: 30px;
+    }
+
+    .footer_images{
+        margin-left: 10px;
+    }
+
+
+}
