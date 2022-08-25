@@ -18,7 +18,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    
+
 }
 
 .navbar {
@@ -49,7 +49,7 @@
 
 }
 
-#login:hover{
+#login:hover {
     color: #fc8019;
 }
 
@@ -60,35 +60,35 @@
     cursor: pointer;
 }
 
-.hero_section_container_image{
+.hero_section_container_image {
     width: calc(50% - 80px);
     background-image: url(images/hero_section_container_image.webp);
     background-size: cover;
 }
 
-.hero_section_container_heading{
+.hero_section_container_heading {
     margin-top: 40px;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.hero_section_container_heading h1{
+.hero_section_container_heading h1 {
     font-size: 35px;
 }
 
-.hero_section_container_heading p{
+.hero_section_container_heading p {
     color: gray;
     font-size: 20px;
 }
 
-.hero_section_container_searchbar{
+.hero_section_container_searchbar {
     margin-top: 20px;
     display: flex;
 
 }
 
-.hero_section_container_searchbar input{
+.hero_section_container_searchbar input {
     background-color: transparent;
     color: gray;
     width: 480px;
@@ -118,20 +118,20 @@
     margin-top: 12px;
 }
 
-#heading1{
+#heading1 {
     font-size: 14px;
     font-weight: 500;
     color: gray;
     margin-bottom: 16px;
 }
 
-#content1{
+#content1 {
     font-size: 14px;
     color: gray;
     font-weight: 500;
 }
 
-.banner_section{
+.banner_section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -141,27 +141,28 @@
     font-size: 12px;
 }
 
-.banner_section_container img{
+.banner_section_container img {
     margin-top: 5px;
     width: 110px;
     margin-bottom: 30px;
 }
-.banner_section_container h1{
+
+.banner_section_container h1 {
     margin-bottom: 12px;
 }
 
-.banner_section_container p{
+.banner_section_container p {
     font-size: 13px;
     color: #b4b0ac;
     font-weight: 500;
 }
 
-#banner_bike{
+#banner_bike {
     width: 130px;
     margin-top: 20px;
 }
 
-.banner_section_container{
+.banner_section_container {
     color: white;
     display: flex;
     flex-direction: column;
@@ -172,13 +173,13 @@
     padding-bottom: 40px;
 }
 
-.pocket_section_container{
+.pocket_section_container {
     display: flex;
     width: 80%;
     margin: auto;
 }
 
-.pocket_section_container_data{
+.pocket_section_container_data {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -186,61 +187,61 @@
     margin-right: 150px;
 }
 
-.pocket_section_container_img{
+.pocket_section_container_img {
     display: flex;
     margin-top: 30px;
     gap: 20px;
 }
 
-.pocket_section_container_img img{
+.pocket_section_container_img img {
     width: 180px;
     cursor: pointer;
 }
-   
-.pocket_section_container_banner_images img{
+
+.pocket_section_container_banner_images img {
     width: 380px;
 }
 
-.img2{
-   margin-top: 70px;
-   position: relative;
-   left: -35px;
+.img2 {
+    margin-top: 70px;
+    position: relative;
+    left: -35px;
 }
 
-.pocket_section_container_data h1{
+.pocket_section_container_data h1 {
     font-size: 35px;
     color: #282c3f;
 }
 
-.pocket_section_container_data p{
+.pocket_section_container_data p {
     font-size: 16px;
     font-weight: 500;
     color: gray;
 }
 
-.swiggy_footer{
+.swiggy_footer {
     background-color: #000000;
     position: relative;
     top: -8px;
-    margin-bottom: 0;
+    bottom: 0;
 }
 
-footer{
+footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 80%;
     margin: auto;
     padding-top: 70px;
     padding-bottom: 20px;
-    border-bottom: 2px solid gray;
+    border-bottom: 1px solid gray;
 }
 
-footer div ul li{
-  list-style: none;
-  margin-bottom: 12px;
+footer div ul li {
+    list-style: none;
+    margin-bottom: 12px;
 }
 
-footer div ul li a{
+footer div ul li a {
     text-decoration: none;
     color: white;
 }
@@ -251,21 +252,51 @@ footer div ul li {
     font-weight: 500;
 }
 
-.footer_subheading a{
+.footer_subheading a {
     color: gray;
-   
+
 }
 
-.footer_subheading{
+.footer_subheading {
     margin-bottom: 36px;
     font-weight: 600;
     font-size: 14px;
 }
 
-.footer_images{
+.footer_images {
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 200px;
     margin-left: 100px;
+}
+
+
+.swiggy_copyright {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+
+.swiggy_copyright_logo1 img {
+    width: 160px;
+}
+
+.swiggy_copyright_logo2 h3 {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+
+.swiggy_copyright_social img{
+    margin-left: 10px;
+    width: 25px;
+    margin-left: 24px;
+
 }
