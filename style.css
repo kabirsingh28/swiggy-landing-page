@@ -171,3 +171,49 @@
     width: 250px;
     padding-bottom: 40px;
 }
+
+.pocket_section_container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.pocket_section_container_data{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 180px;
+    margin-right: 150px;
+}
+
+.pocket_section_container_img{
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.pocket_section_container_img img{
+    width: 180px;
+    cursor: pointer;
+}
+   
+.pocket_section_container_banner_images img{
+    width: 380px;
+}
+
+.img2{
+   margin-top: 70px;
+   position: relative;
+   left: -35px;
+}
+
+.pocket_section_container_data h1{
+    font-size: 35px;
+    color: #282c3f;
+}
+
+.pocket_section_container_data p{
+    font-size: 16px;
+    font-weight: 500;
+    color: gray;
+}
