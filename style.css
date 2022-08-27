@@ -308,10 +308,6 @@ footer div ul li {
     .pocket_section_container_banner_images{
         width: 0;
     }
-    .pocket_section_container_data{
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
 
     .hero_section_container_image{
         display: none;
@@ -326,16 +322,20 @@ footer div ul li {
     .hero_section_container_searchbar button{
         width: 150px;
     }
-
+    
+    .pocket_section_container{
+        margin-left: 0;
+    }
     .pocket_section_container_data{
         display: flex;
-        width: 100%;
+        width: 80%;
+        margin: auto;
         justify-content: center;
         align-items: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        padding-top: 60px;
+        padding-bottom: 60px;
         text-align: center;
-        margin-right: 0;
+       
     }
 
     footer{
@@ -365,6 +365,22 @@ footer div ul li {
      .swiggy_copyright_logo2{
         margin-bottom: 20px;
      }
+
+     .hero_section_container_searchbar{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero_section_container_searchbar input{
+        width: 80%;
+        margin: auto;
+    }
+
+    .hero_section_container_searchbar button{
+        width: 80%;
+        margin: auto;
+    }
+
      
 }
 
@@ -373,12 +389,7 @@ footer div ul li {
         grid-template-columns: 1fr;
     }
 
-    .pocket_section_container_img{
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
-
+  
     .hero_section_container_navbar .navbar{
         display: flex;
         flex-direction: column;
@@ -386,11 +397,7 @@ footer div ul li {
         align-items: flex-start;
     }
     
-    .hero_section_container_searchbar{
-        display: flex;
-        flex-direction: column;
-    }
-
+    
     .hero_section_container_data{
         display: none;
     }
